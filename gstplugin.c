@@ -56,10 +56,6 @@
  * </refsect2>
  */
 
-#ifdef HAVE_CONFIG_H
-#  include <config.h>
-#endif
-
 #include <gst/gst.h>
 
 #include "gstplugin.h"
@@ -281,7 +277,7 @@ GST_PLUGIN_DEFINE (
     plugin,
     "Template plugin",
     plugin_init,
-    VERSION,
+    "1.0.0",
     "LGPL",
     "GStreamer",
     "http://gstreamer.net/"
